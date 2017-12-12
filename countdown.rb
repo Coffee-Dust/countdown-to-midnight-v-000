@@ -9,5 +9,7 @@ def countdown(time)
 end
 
 def countdown_with_sleep(time)
-  sleep(1)
+  time.times do 
+    sleep(1)
+  end
 end
